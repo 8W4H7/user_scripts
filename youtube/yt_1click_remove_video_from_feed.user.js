@@ -31,6 +31,8 @@
       clone_btn.style.padding = '0';
       clone_btn.style.textAlign = 'center';
       clone_btn.style.lineHeight = '20px';
+      clone_btn.style.color = "#333";
+      clone_btn.style.backgroundColor = "#f8f8f8";
       clone_btn.style.borderRadius = '2px';
       clone_btn.innerHTML = 'X';
       clone_btn.style.zIndex = '3';
@@ -66,5 +68,4 @@
   const target = document.querySelector('#browse-items-primary .section-list');
   const config = {childList: true, subtree: true, attributeFilter: ['div'], characterData: false};
   new MutationObserver(oneClick).observe(target, config);
-  
 }) ();
