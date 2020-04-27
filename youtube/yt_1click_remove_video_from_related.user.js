@@ -2,7 +2,7 @@
 // @name        YouTube: 1 Click remove video from related
 // @namespace   YouTube
 // @description Move Remove (video from related) button to more CONVENIENT (for PC USERS WITH MOUSE AND KEYBOARD) location (over video thumb)
-// @icon        https://www.youtube.com/yts/img/favicon_32-vflOogEID.png
+// @icon        https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png
 // @homepageURL https://github.com/8W4H7/user_scripts/
 // @downloadURL https://github.com/8W4H7/user_scripts/raw/master/youtube/yt_1click_remove_video_from_related.user.js
 // @version     2020-04-28
