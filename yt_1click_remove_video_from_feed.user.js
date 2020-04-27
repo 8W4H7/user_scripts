@@ -3,7 +3,8 @@
 // @namespace   YouTube
 // @description Move Remove (video from feed) button to more CONVENIENT (for PC USERS WITH MOUSE AND KEYBOARD) location (over video thumb)
 // @icon        https://www.youtube.com/yts/img/favicon_32-vflOogEID.png
-// @version     2020-04-26
+// @downloadURL https://github.com/8W4H7/user_scripts/blob/master/yt_1click_remove_video_from_feed.user.js
+// @version     2020-04-28
 // @author      8W4H7
 // @license     MIT
 // @match       http*://*youtube.com/feed/subscriptions
