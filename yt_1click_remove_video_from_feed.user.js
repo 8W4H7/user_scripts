@@ -5,7 +5,7 @@
 // @icon        https://www.youtube.com/yts/img/favicon_32-vflOogEID.png
 // @homepageURL https://github.com/8W4H7/user_scripts/
 // @downloadURL https://github.com/8W4H7/user_scripts/raw/master/yt_1click_remove_video_from_feed.user.js
-// @version     2020.04.29
+// @version     2020-04-29
 // @author      8W4H7
 // @license     MIT
 // @match       http*://*youtube.com/feed/subscriptions
