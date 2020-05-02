@@ -5,7 +5,7 @@
 // @icon        https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png
 // @homepageURL https://github.com/8W4H7/user_scripts/
 // @downloadURL https://github.com/8W4H7/user_scripts/raw/master/youtube/yt_1click_remove_video_from_related.user.js
-// @version     2020-04-28
+// @version     2020-05-02
 // @author      8W4H7
 // @license     MIT
 // @match       http*://*youtube.com/watch?v=*
@@ -30,6 +30,8 @@
     clone_btn.style.padding = '0';
     clone_btn.style.textAlign = 'center';
     clone_btn.style.lineHeight = '20px';
+    clone_btn.style.color = "#333";
+    clone_btn.style.backgroundColor = "#f8f8f8";
     clone_btn.style.borderRadius = '2px';
     clone_btn.innerHTML = 'X';
     clone_btn.style.zIndex = '3';
@@ -53,5 +55,4 @@
       }
     }
   }
-  
 }) ();
