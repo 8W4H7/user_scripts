@@ -5,7 +5,7 @@
 // @icon        https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png
 // @homepageURL https://github.com/8W4H7/user_scripts/
 // @downloadURL https://github.com/8W4H7/user_scripts/raw/master/youtube/yt_1click_remove_video_from_feed.user.js
-// @version     2020-04-28
+// @version     2020-04-05
 // @author      8W4H7
 // @license     MIT
 // @match       http*://*youtube.com/feed/subscriptions
@@ -64,6 +64,7 @@
       }
     }
   }
+  oneClick();
   // Create & Run observer
   const target = document.querySelector('#browse-items-primary .section-list');
   const config = {childList: true, subtree: true, attributeFilter: ['div'], characterData: false};
