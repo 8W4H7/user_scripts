@@ -14,7 +14,7 @@
 "use strict";
 (function() {
   // [Condition]: NOT new UI (2017)
-  if (document.cookie.includes("PREF=f6=8&f5=") !== true) return console.log('[YT: 1 Click remove video from related]: Not for new UI (2017), sorry :(')
+  if (document.cookie.includes("PREF=f6=8&f5=") !== true) return console.log('[YT: 1 Click remove video from related]: Not for new UI (2017), sorry :(');
   
   function oneClick() {
     const feedItems = document.querySelectorAll('div.yt-lockup.yt-lockup-grid.yt-lockup-video.clearfix');
