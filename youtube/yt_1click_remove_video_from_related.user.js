@@ -14,7 +14,7 @@
 "use strict";
 (function() {
   // [Condition]: NOT new UI (2017)
-  if (document.cookie.includes("PREF=f6=8&f5=") !== true) return console.log('[YT: 1 Click remove video from related]: Not for new UI (2017), sorry :(')
+  if (document.cookie.includes("PREF=f6=8&f5=") !== true) return console.log('[YT: 1 Click remove video from related]: Not for new UI (2017), sorry :(');
   
   const relatedItems = document.querySelectorAll('ul#watch-related a.content-link.spf-link.yt-uix-sessionlink.spf-link');
   const hideButtons = document.querySelectorAll('button.yt-ui-menu-item.yt-uix-menu-close-on-select.dismiss-menu-choice');
