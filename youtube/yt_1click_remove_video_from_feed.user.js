@@ -5,7 +5,7 @@
 // @icon        https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png
 // @homepageURL https://github.com/8W4H7/user_scripts/
 // @downloadURL https://github.com/8W4H7/user_scripts/raw/master/youtube/yt_1click_remove_video_from_feed.user.js
-// @version     2020-04-05
+// @version     2020-05-24
 // @author      8W4H7
 // @license     MIT
 // @match       http*://*youtube.com/feed/subscriptions
@@ -13,6 +13,11 @@
 
 "use strict";
 (function() {
+  // [Condition]: NOT new UI (2017)
+  if (document.cookie.includes("PREF=f6=8&f5=") !== true) {
+    return console.log('[YT: 1 Click remove video from related]: Not for new UI (2017), sorry :(')
+  }
+  
   function oneClick() {
     const feedItems = document.querySelectorAll('div.yt-lockup.yt-lockup-grid.yt-lockup-video.clearfix');
     const hideButtons = document.querySelectorAll('button.yt-ui-menu-item.yt-uix-menu-close-on-select.dismiss-menu-choice');
