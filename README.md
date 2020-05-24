@@ -1,9 +1,8 @@
-## JS scripts for ["Userscript manager"](https://en.wikipedia.org/wiki/Userscript_manager)
- (like Grease / Violent / Tamper / any_other monkey)
+## JS scripts for [Userscript manager](https://en.wikipedia.org/wiki/Userscript_manager) (like Grease / Violent / Tamper / any_other monkey)
 
-YouTube scripts:
+**YouTube scripts:**
 
-**\* works only with old UI (2016)** [Get me Old Youtube](https://greasyfork.org/en/scripts/32906-get-me-old-youtube)
+**_\* works only with old UI (2016)_** [Get me Old Youtube](https://greasyfork.org/en/scripts/32906-get-me-old-youtube)
 
 [![YT:Feed](https://img.shields.io/static/v1?label=Install&message=1%20Click%20remove%20video%20from%20Feed&color=%237D2C2C)](https://raw.githubusercontent.com/8W4H7/user_scripts/master/youtube/yt_1click_remove_video_from_feed.user.js)
 
