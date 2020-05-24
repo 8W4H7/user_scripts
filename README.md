@@ -1,4 +1,5 @@
-## JS scripts for [Userscript manager](https://en.wikipedia.org/wiki/Userscript_manager) (like Grease / Violent / Tamper / any_other monkey)
+## JS scripts for [Userscript manager](https://en.wikipedia.org/wiki/Userscript_manager) 
+(like Grease / Violent / Tamper / any_other monkey)
 
 **YouTube scripts:**
 
