@@ -5,7 +5,7 @@
 // @icon        https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png
 // @homepageURL https://github.com/8W4H7/user_scripts/
 // @downloadURL https://raw.githubusercontent.com/8W4H7/user_scripts/master/youtube/yt_1click_remove_video_from_related.user.js
-// @version     2020.05.25
+// @version     2020.07.11
 // @author      8W4H7
 // @license     MIT
 // @match       http*://*youtube.com/watch?v=*
@@ -14,7 +14,7 @@
 "use strict";
 (function() {
   // [Condition]: NOT new UI (2017)
-  if (document.cookie.includes("PREF=f6=8&f5=") !== true) return console.log('[YT: 1 Click remove video from related]: Not for new UI (2017), sorry :(');
+  if (document.cookie.includes("PREF=f6=") !== true) return console.log('[YT: 1 Click remove video from related]: Not for new UI (2017), sorry :(');
   
   const relatedItems = document.querySelectorAll('ul#watch-related a.content-link.spf-link.yt-uix-sessionlink.spf-link');
   const hideButtons = document.querySelectorAll('button.yt-ui-menu-item.yt-uix-menu-close-on-select.dismiss-menu-choice');
