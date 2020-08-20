@@ -1,10 +1,10 @@
 # JS scripts for [Userscript manager](https://en.wikipedia.org/wiki/Userscript_manager)
 *(like Grease / Violent / Tamper / any_other monkey)*
-\
-\
-\
-### **YouTube**
-\_\* not working with new UI (2017). To get old one, use:\
+
+
+
+### **YouTube** ###
+_\* not working with new UI (2017). To get old one, use:\
 ~~\- [YouTube Classic](https://github.com/xxzefgh/youtube-classic-extension)~~;\
 \- [Good Old YouTube](https://addons.mozilla.org/firefox/addon/good-old-youtube)._
 
