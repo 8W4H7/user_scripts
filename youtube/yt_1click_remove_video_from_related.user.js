@@ -5,7 +5,7 @@
 // @icon        https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png
 // @homepageURL https://github.com/8W4H7/user_scripts/
 // @downloadURL https://raw.githubusercontent.com/8W4H7/user_scripts/master/youtube/yt_1click_remove_video_from_related.user.js
-// @version     2020.08.31
+// @version     2020.09.01
 // @author      8W4H7
 // @license     MIT
 // @match       http*://*youtube.com/watch?v=*
@@ -14,13 +14,13 @@
 "use strict";
 (function() {
   // [Condition]: NOT new UI (2017+)
-  if (typeof window.Polymer !== 'undefined') return console.log('[YT: 1 Click remove video from related]: Not working with UI 2017+ :(');
+  if (typeof window.Polymer !== 'undefined') return console.log('[YT\RRV1C]: Not working with UI 2017+ :(');
   
   const relatedItems = document.querySelectorAll('ul#watch-related a.content-link.spf-link.yt-uix-sessionlink.spf-link');
   const hideButtons = document.querySelectorAll('button.yt-ui-menu-item.yt-uix-menu-close-on-select.dismiss-menu-choice');
   
   for (let btn of hideButtons) {
-    // Get ID of feed item...
+    // Get ID of related item...
     let btn_id = btn.getAttribute('data-innertube-clicktracking').substr(0, 21);
     // Create new remove button
     let clone_btn = btn.cloneNode(true);
@@ -39,7 +39,7 @@
     clone_btn.innerHTML = 'X';
     clone_btn.style.zIndex = '3';
     clone_btn.style.visibility = "hidden";
-    // Now find needed FI...
+    // Now find needed RI...
     for (let itm of relatedItems) {
       let fi_id = itm.getAttribute('data-visibility-tracking').substr(0, 21);
       if (fi_id === btn_id) {
