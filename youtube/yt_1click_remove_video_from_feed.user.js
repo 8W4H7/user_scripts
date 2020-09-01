@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name        YouTube: Remove videos from feed in 1 Click
+// @name        YouTube: Remove videos from feed in 1 click
 // @namespace   YouTube
 // @description Move Remove (video from feed) button to more CONVENIENT (for PC USERS WITH MOUSE AND KEYBOARD) location (over video thumb)
 // @icon        https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png
 // @homepageURL https://github.com/8W4H7/user_scripts/
 // @downloadURL https://raw.githubusercontent.com/8W4H7/user_scripts/master/youtube/yt_1click_remove_video_from_feed.user.js
-// @version     2020.08.31
+// @version     2020.09.01
 // @author      8W4H7
 // @license     MIT
 // @match       http*://*youtube.com/feed/subscriptions
@@ -14,7 +14,7 @@
 "use strict";
 (function() {
   // [Condition]: NOT new UI (2017+)
-  if (typeof window.Polymer !== 'undefined') return console.log('[YT: 1 Click remove video from related]: Not working with UI 2017+ :(');
+  if (typeof window.Polymer !== 'undefined') return console.log('[YT\RVFF1C]: Not working with UI 2017+ :(');
   
   function oneClick() {
     const feedItems = document.querySelectorAll('div.yt-lockup.yt-lockup-grid.yt-lockup-video.clearfix');
@@ -58,7 +58,7 @@
             // 3) attach onMouse over/leave event to thumb area
             thumb_area.addEventListener('mouseover', function() {clone_btn.style.visibility = 'visible';}, false);
             thumb_area.addEventListener('mouseleave', function() {clone_btn.style.visibility = 'hidden';}, false);
-            // 4) Remove old button (and it's access menu)
+            // 4) remove old button (and it's access menu)
             itm.firstChild.lastChild.childNodes[4].remove();
           }
         } else {
