@@ -4,7 +4,7 @@
 
 
 **YouTube**\
-_\* not working with new UI (2017). To get old one, use:\
+_\* not working with new UI (2017+). To get old one, use:\
 ~~\- [YouTube Classic](https://github.com/xxzefgh/youtube-classic-extension)~~;\
 ~~\- [Good Old YouTube](https://addons.mozilla.org/firefox/addon/good-old-youtube)~~._
 
